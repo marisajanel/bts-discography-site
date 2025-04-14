@@ -1,0 +1,444 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9b0c3;
+    background-image:url(https://e0.pxfuel.com/wallpapers/249/94/desktop-wallpaper-rose-gold-bts-love-bts-anpanman.jpg);
+    background-position: top right;
+    background-repeat: repeat-y;
+    background-size: 20%;
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    
+
+}
+
+#wrapper {
+    background: #FFFFFF;
+}
+
+header {
+    background-color: #887cf3;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px; 
+    margin-bottom: 20px;
+    height: auto;
+}
+
+header img {
+    width: 5%; 
+    height: auto; 
+    margin-left: 90px;
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+header a:link{
+    color: #FFFFFF;
+}
+header a:visited {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+header a:hover {
+    color: #d2b1ec
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Helvetica, Arial, sans-serif;;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+
+nav {
+    font-weight: bold;
+    padding: 0;
+    font-size: 120%;
+    background: linear-gradient(to bottom, #FFFFFF, #887cf3);
+}
+
+nav li {
+    border-bottom: 1px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 100%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    transition: color 3s ease-out;
+    padding-right: 20px;
+}
+
+.intro-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro-text h2{
+    color: #887cf3;
+    font-size: 24px;
+}
+
+.intro-text p {
+    font-size: 18px;
+}
+
+main {
+    background-color: #FFFFFF;
+    padding: 1px 20px 20px 20px;
+    display: block;
+    padding-left: 30px;
+    overflow: auto;
+}
+
+h2 {
+    color: #887cf3;
+    font-family: Helvetica, Arial, sans-serif;;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;;
+    color: #000033;
+}
+
+dt {
+    color: #b148eb
+}
+
+.resort {
+    color: #887cf3;
+    font-weight: bold;
+}
+
+
+main ul {
+    list-style-image: url('marker.gif');
+}
+
+table {
+    border: 2px solid #b148eb;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0.5em;
+    border: 2px solid #b148eb;
+}
+td {
+    text-align: center;
+}
+.text{
+    text-align: left;
+}
+tr:nth-of-type(odd){
+    background: #F5FAFC; 
+}
+footer {
+    font-size: 10px;
+    font-style: italic;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;;
+    padding: 1em;
+   
+}
+.home-page footer{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#homehero {
+    height: 400px;
+    background-image: url(group3.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+   
+}
+
+#schoolhero {
+    height: 400px;
+    background-image: url(2k4s.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin-right: 50px;
+
+}
+#luvhero {
+    height: 400px;
+    background-image: url(luvaffair.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+#latehero {
+    height: 400px;
+    background-image: url(late.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+#darkhero {
+    height: 400px;
+    background-image: url(darkgroup.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+#beautifulhero {
+    height: 400px;
+    background-image: url(beautiful.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+#wingshero {
+    height: 400px;
+    background-image: url(wingsgroup.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+#lovehero {
+    height: 400px;
+    background-image: url(loveyourselfgroup.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+#motshero {
+    height: 400px;
+    background-image: url(personagroup.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    margin: 20px;
+    margin-right: 50px;
+
+}
+
+/* CSS for pages with audio */
+
+
+.page-with-audio form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.page-with-audio input,
+.page-with-audio textarea {
+    margin-bottom: 0.5em;
+    background-color: #FFFFFF;
+}
+
+.page-with-audio main {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    
+}
+
+.page-with-audio .album-info {
+    margin-right: 30px;
+    
+}
+
+.page-with-audio .content {
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.page-with-audio .tracklist-container {
+        max-height: 600px;
+        overflow: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-left: 50px;
+}
+
+.page-with-audio .tracklist {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: 0 auto;
+   
+}
+
+.page-with-audio .videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.page-with-audio .videos video {
+    margin-bottom: 10px;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.page-with-audio .videos figure {
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+
+    body {
+        margin: 10px
+    }
+
+    
+
+    section {
+        margin-right: 2em;
+        margin-left: 2em;
+        flex: 1;
+    }
+
+    .flow {
+        display: block;
+        flex-direction: row;
+    }
+    form {
+        display: grid;
+        width: 60%;
+        display: grid;
+        grid-template-columns: 6em 1fr;
+        grid-gap: 1em;
+    }
+    input[type="submit"] {
+        grid-column: 2;
+        width: 9em;
+    }
+    
+
+    @media (min-width: 1024px) {
+    
+        #wrapper {
+            display: grid;
+            grid-area: auto;
+            margin: auto;
+            width: 80%;
+            border: 1px solid #b148eb;
+            box-shadow: 3px 3px 3px #b148eb;
+
+        }
+        nav {
+            text-align: left;
+            padding-left: 1em;
+        }
+        @supports (display:grid){
+            nav ul {
+                flex-direction: column;
+                padding-top: 3em;
+            }
+            .hero {
+                grid-area: hero;
+            }
+            header {
+                grid-area: header;
+            }
+            nav {
+                grid-area: nav;
+            }
+            main {
+                grid-area: main;
+            }
+            footer {
+                grid-area: footer;
+            }
+            #wrapper {
+                display: grid;
+                grid-template: 
+                "header header"
+                "nav hero"
+                "nav main"
+                "nav footer"
+                / 180px 1fr;
+                ;
+            }
+        }
+    }
+}
